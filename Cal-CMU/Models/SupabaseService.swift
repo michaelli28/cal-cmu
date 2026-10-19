@@ -441,7 +441,7 @@ actor SupabaseService {
     // MARK: - Image Storage
 
     func uploadMealImage(userId: UUID, mealId: UUID, imageData: Data) async throws -> String {
-        let path = "\(userId.uuidString)/\(mealId.uuidString).jpg"
+        let path = "\(userId.uuidString.lowercased())/\(mealId.uuidString).jpg"
 
         try await client.storage
             .from("meal-images")
@@ -455,7 +455,7 @@ actor SupabaseService {
     }
 
     func deleteMealImage(userId: UUID, mealId: UUID) async throws {
-        let path = "\(userId.uuidString)/\(mealId.uuidString).jpg"
+        let path = "\(userId.uuidString.lowercased())/\(mealId.uuidString).jpg"
         try await client.storage
             .from("meal-images")
             .remove(paths: [path])
