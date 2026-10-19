@@ -1,0 +1,23 @@
+Item,Calories,Calories_from_Fat,Total_Fat_g,Sat_Fat_g,Trans_Fat_g,Cholesterol_mg,Sodium_mg,Carbs_g,Fiber_g,Sugars_g,Protein_g,VitA_pct,VitC_pct,Calcium_pct,Iron_pct
+Breakfast Sandwich (English Muffin),520,270,30.0,12.0,0.0,600,1380,27,3,1,39,15,0,35,10
+Breakfast Sandwich (Croissant BEC),660,390,43.0,20.0,0.0,645,1400,32,2,8,39,25,0,30,10
+Chicken Salad,240,80,9.0,2.0,0.0,100,870,4,0,1,35,2,0,2,6
+Fruit,70,0,0.0,0.0,0.0,0,15,19,2,15,1,25,35,0,2
+Potato Salad,100,20,2.0,0.0,0.0,0,125,19,2,0,3,0,20,4,8
+Standard Salad,140,35,4.0,2.0,0.0,25,580,16,5,4,13,100,60,20,20
+Tuna Salad,290,140,16.0,2.5,0.0,100,630,4,0,1,32,2,4,2,6
+Asian Noodle Salad,340,35,4.0,1.5,0.0,65,110,62,3,3,14,2,4,4,15
+Bowtie Pasta,340,30,3.5,0.5,0.0,0,400,65,3,4,12,0,2,2,15
+Build a Burger,700,370,41.0,18.0,2.0,185,690,24,1,2,55,10,4,30,35
+Beef Stroganoff,220,90,10.0,4.0,0.0,80,500,4,1,2,27,2,2,2,15
+Chicken Cacciatore w Noodles,250,60,6.0,2.5,0.0,90,250,24,1,2,22,25,2,2,10
+Cod w Tomato Sauce & Wild Rice,380,100,11.0,4.0,0.0,135,790,36,3,4,35,110,25,6,15
+Jambalaya Cajun Rice,360,100,11.0,3.0,0.0,120,1940,34,1,1,31,2,10,2,10
+Chicken Fingers w Mac & Cheese,640,310,35.0,9.0,0.0,85,1520,47,3,1,33,4,0,10,15
+Meatloaf w Mashed Potatoes,530,230,26.0,11.0,1.5,125,960,35,3,4,35,10,40,6,20
+Baked Chicken & Perogies,520,180,21.0,10.0,0.0,100,810,23,2,6,57,8,2,4,15
+Rosemary Pork Loin w Kielbasa,470,150,17.0,5.0,0.0,115,2040,39,2,1,39,2,10,2,15
+Swedish Meatballs w Noodles,450,230,26.0,9.0,1.5,120,470,20,2,1,33,2,2,8,20
+Standard Sandwich (White Bread),450,160,18.0,10.0,0.0,80,1250,36,2,9,36,50,25,45,15
+Broccoli & Bacon Salad,80,40,4.5,1.0,0.0,5,170,9,4,2,3,35,120,6,4
+Egg Salad,240,160,17.0,4.5,0.0,600,550,4,0,2,19,15,0,8,15

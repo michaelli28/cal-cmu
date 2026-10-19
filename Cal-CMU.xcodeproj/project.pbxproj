@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F6000200000030 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = A1B2C3D4E5F6000100000030 /* Supabase */; };
+		A1B2C3D4E5F6000200000001 /* Cal_CMUApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000001 /* Cal_CMUApp.swift */; };
+		A1B2C3D4E5F6000200000002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000002 /* HomeView.swift */; };
+		A1B2C3D4E5F6000200000003 /* CalorieRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000003 /* CalorieRingView.swift */; };
+		A1B2C3D4E5F6000200000004 /* MacroBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000004 /* MacroBarView.swift */; };
+		A1B2C3D4E5F6000200000005 /* MealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000005 /* MealCardView.swift */; };
+		A1B2C3D4E5F6000200000006 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000006 /* CameraView.swift */; };
+		A1B2C3D4E5F6000200000007 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000007 /* MealDetailView.swift */; };
+		A1B2C3D4E5F6000200000008 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000008 /* ImagePicker.swift */; };
+		A1B2C3D4E5F6000200000009 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000009 /* Meal.swift */; };
+		A1B2C3D4E5F600020000000A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600010000000A /* Assets.xcassets */; };
+		A1B2C3D4E5F600020000000B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600010000000B /* Preview Assets.xcassets */; };
+		A1B2C3D4E5F600020000000C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600010000000D /* MainTabView.swift */; };
+		A1B2C3D4E5F600020000000D /* WaterTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600010000000E /* WaterTrackerView.swift */; };
+		A1B2C3D4E5F600020000000E /* StreakBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600010000000F /* StreakBadgeView.swift */; };
+		A1B2C3D4E5F600020000000F /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000010 /* LogView.swift */; };
+		A1B2C3D4E5F6000200000010 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000011 /* InsightsView.swift */; };
+		A1B2C3D4E5F6000200000011 /* WeeklyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000012 /* WeeklyChartView.swift */; };
+		A1B2C3D4E5F6000200000012 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000013 /* ProfileView.swift */; };
+		A1B2C3D4E5F6000200000013 /* GoalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000014 /* GoalSettingView.swift */; };
+		A1B2C3D4E5F6000200000020 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000020 /* AuthManager.swift */; };
+		A1B2C3D4E5F6000200000021 /* SupabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000021 /* SupabaseConfig.swift */; };
+		A1B2C3D4E5F6000200000022 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000022 /* LoginView.swift */; };
+		A1B2C3D4E5F6000200000023 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000023 /* SignUpView.swift */; };
+		A1B2C3D4E5F6000200000024 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000024 /* SupabaseService.swift */; };
+		A1B2C3D4E5F6000200000025 /* FlatDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000025 /* FlatDesignSystem.swift */; };
+		A1B2C3D4E5F6000200000026 /* RestaurantPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000026 /* RestaurantPickerView.swift */; };
+		A1B2C3D4E5F6000200000027 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000100000027 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D4E5F6000100000001 /* Cal_CMUApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cal_CMUApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000003 /* CalorieRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieRingView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000004 /* MacroBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroBarView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000005 /* MealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCardView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000006 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000007 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000008 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000009 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600010000000A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3D4E5F600010000000B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B2C3D4E5F600010000000C /* Cal-CMU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cal-CMU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F600010000000D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600010000000E /* WaterTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600010000000F /* StreakBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakBadgeView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000010 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000011 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000012 /* WeeklyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChartView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000013 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000014 /* GoalSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSettingView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000020 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000021 /* SupabaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseConfig.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000022 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000023 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000024 /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000025 /* FlatDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatDesignSystem.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000026 /* RestaurantPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPickerView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000100000027 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4E5F6000400000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F6000200000030 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D4E5F6000300000001 = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000300000002 /* Cal-CMU */,
+				A1B2C3D4E5F6000300000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000300000002 /* Cal-CMU */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000100000001 /* Cal_CMUApp.swift */,
+				A1B2C3D4E5F6000100000025 /* FlatDesignSystem.swift */,
+				A1B2C3D4E5F6000300000003 /* Views */,
+				A1B2C3D4E5F6000300000004 /* Models */,
+				A1B2C3D4E5F600010000000A /* Assets.xcassets */,
+				A1B2C3D4E5F6000300000006 /* Preview Content */,
+			);
+			path = "Cal-CMU";
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000300000003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600010000000D /* MainTabView.swift */,
+				A1B2C3D4E5F6000100000002 /* HomeView.swift */,
+				A1B2C3D4E5F6000100000003 /* CalorieRingView.swift */,
+				A1B2C3D4E5F6000100000004 /* MacroBarView.swift */,
+				A1B2C3D4E5F600010000000E /* WaterTrackerView.swift */,
+				A1B2C3D4E5F600010000000F /* StreakBadgeView.swift */,
+				A1B2C3D4E5F6000100000005 /* MealCardView.swift */,
+				A1B2C3D4E5F6000100000010 /* LogView.swift */,
+				A1B2C3D4E5F6000100000006 /* CameraView.swift */,
+				A1B2C3D4E5F6000100000007 /* MealDetailView.swift */,
+				A1B2C3D4E5F6000100000008 /* ImagePicker.swift */,
+				A1B2C3D4E5F6000100000011 /* InsightsView.swift */,
+				A1B2C3D4E5F6000100000012 /* WeeklyChartView.swift */,
+				A1B2C3D4E5F6000100000013 /* ProfileView.swift */,
+				A1B2C3D4E5F6000100000014 /* GoalSettingView.swift */,
+				A1B2C3D4E5F6000100000022 /* LoginView.swift */,
+				A1B2C3D4E5F6000100000023 /* SignUpView.swift */,
+				A1B2C3D4E5F6000100000026 /* RestaurantPickerView.swift */,
+				A1B2C3D4E5F6000100000027 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000300000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000100000009 /* Meal.swift */,
+				A1B2C3D4E5F6000100000020 /* AuthManager.swift */,
+				A1B2C3D4E5F6000100000021 /* SupabaseConfig.swift */,
+				A1B2C3D4E5F6000100000024 /* SupabaseService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000300000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600010000000C /* Cal-CMU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000300000006 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600010000000B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D4E5F6000500000001 /* Cal-CMU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F6000700000002 /* Build configuration list for PBXNativeTarget "Cal-CMU" */;
+			buildPhases = (
+				A1B2C3D4E5F6000400000001 /* Sources */,
+				A1B2C3D4E5F6000400000002 /* Frameworks */,
+				A1B2C3D4E5F6000400000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cal-CMU";
+			packageProductDependencies = (
+				A1B2C3D4E5F6000100000030 /* Supabase */,
+			);
+			productName = "Cal-CMU";
+			productReference = A1B2C3D4E5F600010000000C /* Cal-CMU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D4E5F6000600000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A1B2C3D4E5F6000500000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3D4E5F6000700000001 /* Build configuration list for PBXProject "Cal-CMU" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D4E5F6000300000001;
+			packageReferences = (
+				EFDBCFFF2F484FC5002989B2 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = A1B2C3D4E5F6000300000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D4E5F6000500000001 /* Cal-CMU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4E5F6000400000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F600020000000B /* Preview Assets.xcassets in Resources */,
+				A1B2C3D4E5F600020000000A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D4E5F6000400000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F6000200000001 /* Cal_CMUApp.swift in Sources */,
+				A1B2C3D4E5F600020000000C /* MainTabView.swift in Sources */,
+				A1B2C3D4E5F6000200000002 /* HomeView.swift in Sources */,
+				A1B2C3D4E5F6000200000003 /* CalorieRingView.swift in Sources */,
+				A1B2C3D4E5F6000200000004 /* MacroBarView.swift in Sources */,
+				A1B2C3D4E5F600020000000D /* WaterTrackerView.swift in Sources */,
+				A1B2C3D4E5F600020000000E /* StreakBadgeView.swift in Sources */,
+				A1B2C3D4E5F6000200000005 /* MealCardView.swift in Sources */,
+				A1B2C3D4E5F600020000000F /* LogView.swift in Sources */,
+				A1B2C3D4E5F6000200000006 /* CameraView.swift in Sources */,
+				A1B2C3D4E5F6000200000007 /* MealDetailView.swift in Sources */,
+				A1B2C3D4E5F6000200000008 /* ImagePicker.swift in Sources */,
+				A1B2C3D4E5F6000200000010 /* InsightsView.swift in Sources */,
+				A1B2C3D4E5F6000200000011 /* WeeklyChartView.swift in Sources */,
+				A1B2C3D4E5F6000200000012 /* ProfileView.swift in Sources */,
+				A1B2C3D4E5F6000200000013 /* GoalSettingView.swift in Sources */,
+				A1B2C3D4E5F6000200000009 /* Meal.swift in Sources */,
+				A1B2C3D4E5F6000200000020 /* AuthManager.swift in Sources */,
+				A1B2C3D4E5F6000200000021 /* SupabaseConfig.swift in Sources */,
+				A1B2C3D4E5F6000200000022 /* LoginView.swift in Sources */,
+				A1B2C3D4E5F6000200000023 /* SignUpView.swift in Sources */,
+				A1B2C3D4E5F6000200000024 /* SupabaseService.swift in Sources */,
+				A1B2C3D4E5F6000200000025 /* FlatDesignSystem.swift in Sources */,
+				A1B2C3D4E5F6000200000026 /* RestaurantPickerView.swift in Sources */,
+				A1B2C3D4E5F6000200000027 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D4E5F6000800000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F6000800000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B2C3D4E5F6000800000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cal-CMU/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cal-CMU/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cal-CMU needs camera access to scan and analyze your meals.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cal-CMU needs photo library access to select meal photos for analysis.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calcmu.Cal-CMU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F6000800000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cal-CMU/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cal-CMU/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cal-CMU needs camera access to scan and analyze your meals.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cal-CMU needs photo library access to select meal photos for analysis.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calcmu.Cal-CMU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D4E5F6000700000001 /* Build configuration list for PBXProject "Cal-CMU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F6000800000001 /* Debug */,
+				A1B2C3D4E5F6000800000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D4E5F6000700000002 /* Build configuration list for PBXNativeTarget "Cal-CMU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F6000800000003 /* Debug */,
+				A1B2C3D4E5F6000800000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFDBCFFF2F484FC5002989B2 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1B2C3D4E5F6000100000030 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFDBCFFF2F484FC5002989B2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A1B2C3D4E5F6000600000001 /* Project object */;
+}

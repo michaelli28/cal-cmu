@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Cal-CMU needs camera access to scan and analyze your meals.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Cal-CMU needs photo library access to select meal photos for analysis.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.calcmu.Cal-CMU</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>calcmu</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
