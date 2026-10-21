@@ -2,7 +2,7 @@
 
 An iOS calorie and nutrition tracker written in SwiftUI, aimed at Carnegie Mellon students who eat at campus dining locations. You log meals by picking items from a CMU dining menu, and the app tracks calories and macros against daily goals it works out from your body stats. It also records fiber, sugar, sodium and a handful of vitamins and minerals for each meal.
 
-Built as a team project.
+Built by Henry Kiamilev and Michael Li.
 
 ## How it works
 
